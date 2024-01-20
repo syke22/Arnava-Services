@@ -21,7 +21,6 @@ body {
 
 .nav {
     background-color: aqua;
-    height: 9.5vw;
 }
 
 .nav-part1 {
@@ -44,11 +43,25 @@ body {
     display: none;
 }
 
+.nav-part2 {
+    background-color: #2B2B2B;
+}
+
 .nav-part2 ul {
     display: flex;
-    text-decoration: none;
     list-style: none;
     justify-content: space-around;
+}
+
+.list li {
+    font-family: FP;
+    font-size: 1.3vw;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
@@ -65,5 +78,7 @@ body {
     .Logs {
         height: 50px;
     }
+
+    .nav-part2 {display: none;}
 
 }
